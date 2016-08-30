@@ -1,0 +1,105 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{cyril.jpg} % Profile picture
+
+\cvname{Cyril POIDEVIN} % Your name
+\cvjobtitle{Administrateur Systèmes et \newline réseaux} % Job title/career
+
+\cvdate{} % Date of birth
+\cvaddress{53, rue Claude Bernand \newline 51430 TINQUEUX} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{06.62.27.53.99} % Phone number
+\cvsite{blog.vilsagame.fr} % Personal website
+\cvmail{cyril.poidevin@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Passionné d'informatique depuis mon plus jeune age, je suis autodidacte et investi.}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Python/1},{C++/3},{Cisco ASA/4},{HTML - CSS - PHP/4},{Linux (Debian - Ubuntu)/4.5},{Windows Server/4.5},{Virtualisation/4.5},{Service Client/5},{Gestion de parc/5.5},{Supervision - Monitoring/5.5}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+\skillstext{{laravel/3},{Latex/3},{Microsoft Office/3}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\vspace*{2cm}
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2012 - 2016}{Technicien systèmes et réseaux}{AXESYS}{
+		- Support niveau 1, 2 et 3\\
+		- Mise en place d'infrastructures systèmes et réseaux\\
+		- Mise en place de systèmes de supervision\\
+		- Développement d'applications Web\\
+	}
+	\twentyitem{2011}{Technicien de maintenance IT}{ECONOCOM}{Remplacement de postes informatiques\\}
+	\twentyitem{2011}{Technicien de déploiement}{}{Remplacement d'écrans\\}
+	\twentyitem{2009 - 2011}{Conseiller informatique}{GROUPAMA}{Alternance\\}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\vspace*{1cm}
+\section{Formation}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2011}{Gestionnaire de Maintenance et Support Informatique}{CESI}{Titre de niveau III\\}
+	\twentyitem{2007}{Baccalauréat Science et Technique de Laboratoire}{Lycée Libergier}{\\}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\vspace*{1cm}
+\section{Centre d'intérêts}
+
+Domotique, MMORPG, Développement de Jeux Vidéo, Moto, Guitare.
+
+%----------------------------------------------------------------------------------------
+%	 LANGUES
+%----------------------------------------------------------------------------------------
+
+\vspace*{1cm}
+\section{Langues}
+
+\begin{twentyshort} % Environment for a list with descriptions
+	\twentyitemshort{Français}{maternel\\}
+	\twentyitemshort{Anglais}{Technique\\}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twentyshort}
+
+\end{document}
