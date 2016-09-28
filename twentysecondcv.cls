@@ -122,9 +122,14 @@
 
 		%------------------------------------------------
 
-		{\Large\color{black!80}\cvjobtitle}
+
+		\begin{flushleft}
+			\aboutme
+		\end{flushleft}
 
 		%------------------------------------------------
+
+		%\profilesection{}{6cm}
 
 		\renewcommand{\arraystretch}{1.6}
 		\begin{tabular}{p{0.5cm} @{\hskip 0.5cm}p{5cm}}
@@ -134,14 +139,6 @@
 			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvsite\\}
 			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \href{mailto:\cvmail}{\cvmail}}
 		\end{tabular}
-
-		%------------------------------------------------
-
-		\profilesection{A Propos de moi}{0.6cm}
-
-		\begin{flushleft}
-			\aboutme
-		\end{flushleft}
 
 		%------------------------------------------------
 
@@ -218,7 +215,7 @@
 	#1&\parbox[t]{0.83\textwidth}{%
 		\textbf{#2}%
 		\hfill%
-		{\footnotesize#3}\\%
+		{#3}\\%
 		#4\vspace{\parsep}%
 	}\\
 }
