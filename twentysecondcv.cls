@@ -142,12 +142,12 @@
 
 		%------------------------------------------------
 
-		\profilesection{Compétences}{1.4cm}
+		\profilesection{CompÃ©tences}{1.4cm}
 
 		\skills
 		\skillstext
 		\scriptsize
-		(*)[L'échelle de compétence est de 0 (Notion) à 6 (Expert).]
+		(*)[L'Ã©chelle de compÃ©tence est de 0 (Notion) Ã  6 (Expert).]
 			
 		%------------------------------------------------
 			

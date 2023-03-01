@@ -1,4 +1,4 @@
-%----------------------------------------------------------------------------------------
+ï»¿%----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
@@ -13,13 +13,13 @@
 \profilepic{picts/cyril.jpg} % Profile picture
 
 \cvname{Cyril POIDEVIN} % Your name
-%% \cvjobtitle{Administrateur Systèmes et \newline Réseaux} % Job title/career
-\cvjobtitle{Développeur Full-stack} % Job title/career
+%% \cvjobtitle{Administrateur SystÃ¨mes et \newline RÃ©seaux} % Job title/career
+\cvjobtitle{Architecte Solutions} % Job title/career
 
-\cvdate{né le 20 juillet 1988} % Date of birth
-\cvaddress{53, rue Claude Bernand \newline 51430 TINQUEUX} % Short address/location, use \newline if more than 1 line is required
+\cvdate{nÃ© le 20 juillet 1988} % Date of birth
+\cvaddress{TINQUEUX} % Short address/location, use \newline if more than 1 line is required
 \cvnumberphone{06.62.27.53.99} % Phone number
-\cvsite{http://cyril.poidevin.info} % Personal website
+\cvsite{https://github.com/Vilsafur} % Personal website
 \cvmail{cyril.poidevin@gmail.com} % Email address
 
 %----------------------------------------------------------------------------------------
@@ -30,19 +30,31 @@
 %	 ABOUT ME
 %----------------------------------------------------------------------------------------
 
-\aboutme{Passionné d'informatique depuis mon plus jeune âge, je suis autodidacte et investi.}
+\aboutme{PassionnÃ© d'informatique depuis mon plus jeune Ã¢ge, je suis autodidacte et investi.}
 
 %----------------------------------------------------------------------------------------
 %	 SKILLS
 %----------------------------------------------------------------------------------------
 
 % Skill bar section, each skill must have a value between 0 an 6 (float)
-\skills{{C++/2},{NodeJS/2},{Cisco ASA/4},{Linux (Debian - Ubuntu)/4.5},{Windows Server/4.5},{Virtualisation/4.5},{PHP/4.5},{CSS/4.5},{HTML/4.5},{Service Client/5},{Gestion de parc/5.5},{Supervision - Monitoring/5.5}}
+\skills{
+  {Cisco ASA/3},
+  {Linux (Debian - Ubuntu)/4.5},
+  {Windows Server/4.5},
+  {CSS/4.5},
+  {HTML/4.5},
+  {PHP/4.5},
+  {Docker/4.5},
+  {Kubernetes/4.5},
+  {Gitlab CI/4.5},
+  {Gitlab/4.5},
+  {VueJs/5.5},
+  {Symfony/5.5}}
 
 %------------------------------------------------
 
 % Skill text section, each skill must have a value between 0 an 6
-\skillstext{{laravel/3},{vuejs/3},{wordpress/3},{Latex/3},{Microsoft Office/3},{Python/1}}
+\skillstext{{laravel/2},{wordpress/3},{Latex/3},{Microsoft Office/3},{Python/1}}
 
 %----------------------------------------------------------------------------------------
 
@@ -62,37 +74,50 @@
 %  EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\vspace*{2cm}
-\section{Expérience professionnelle}
+\vspace*{0.8cm}
+\section{ExpÃ©rience professionnelle}
 
 \begin{twenty} % Environment for a list with descriptions
-  \twentyitem{depuis janv.}{Développeur Web}{\includegraphics[height=30px]{picts/dr-creation.png}}{
-    à Bezannes\\
-    - Développement d'applications internes\\
-    - Développement de site e-commerce
+  \twentyitem{depuis fÃ©v.}{Architecte Logiciel}{\includegraphics[height=30px]{picts/multi-impact.png}}{
+    Ã  Reims\\
+    - Conception de l'architecture fonctionnelle et technique\\
+    - Assiste les Ã©quipes dans l'utilisation des technologies\\
+    - Mise en place et maintien de clusters Kubernetes\\
+    - DÃ©finition et explication des bonnes pratiques de dÃ©veloppement\\
+    - Mise en place d'une charte de dÃ©veloppement
+    }
+  \twentyitem{2018-2022}{DÃ©veloppeur Web}{\includegraphics[height=30px]{picts/multi-impact.png}}{
+    Ã  Reims\\
+    - DÃ©veloppement d'applications internes\\
+    - Mise en place et maintien de clusters Kubernetes
   }
-  \twentyitem{2017}{Développeur Web}{\includegraphics[height=30px]{picts/scripto.jpg}}{
-    à Witry-Lès-Reims\\
-    - Développement de site web\\
+  \twentyitem{2018}{DÃ©veloppeur Web}{\includegraphics[height=30px]{picts/dr-creation.png}}{
+    Ã  Bezannes\\
+    - DÃ©veloppement d'applications internes\\
+    - DÃ©veloppement de site e-commerce
+  }
+  \twentyitem{2017}{DÃ©veloppeur Web}{\includegraphics[height=30px]{picts/scripto.jpg}}{
+    Ã  Witry-LÃ¨s-Reims\\
+    - DÃ©veloppement de site web\\
     - Mise en place de jeux concours\\
   }
-  \twentyitem{2012 - 2017}{Technicien Systèmes et Réseaux}{\includegraphics[height=30px]{picts/axesys.jpg}}{
-    à Bezannes\\
+  \twentyitem{2012 - 2017}{Technicien SystÃ¨mes et RÃ©seaux}{\includegraphics[height=30px]{picts/axesys.jpg}}{
+    Ã  Bezannes\\
     - Support niveau 1, 2 et 3\\
-    - Mise en place d'infrastructures systèmes et réseaux\\
-    - Mise en place de systèmes de supervision\\
-    - Développement d'applications Web\\
+    - Mise en place d'infrastructures systÃ¨mes et rÃ©seaux\\
+    - Mise en place de systÃ¨mes de supervision\\
+    - DÃ©veloppement d'applications Web\\
   }
-  \twentyitem{2011}{Technicien de Maintenance IT}{\includegraphics[height=20px]{picts/econocom.jpg}}{
-    à Bezannes\\
-    - Remplacement de postes informatiques\\
-  }
-  %\twentyitem{2011}{Technicien de Déploiement}{\includegraphics[height=40px]{picts/chu-reims.png}}{
-  %  à Reims\\
-  %  - Remplacement d'écrans\\
+  % \twentyitem{2011}{Technicien de Maintenance IT}{\includegraphics[height=20px]{picts/econocom.jpg}}{
+  %   Ã  Bezannes\\
+  %   - Remplacement de postes informatiques\\
+  % }
+  %\twentyitem{2011}{Technicien de DÃ©ploiement}{\includegraphics[height=40px]{picts/chu-reims.png}}{
+  %  Ã  Reims\\
+  %  - Remplacement d'Ã©crans\\
   %}
   % \twentyitem{2009 - 2011}{Conseiller Informatique}{\includegraphics[height=40px]{picts/gne.jpg}}{
-  %   à Reims\\
+  %   Ã  Reims\\
   %   - Support niveau 1\\
   % }
   %\twentyitem{<dates>}{<title>}{<location>}{<description>}
@@ -106,8 +131,8 @@
 \section{Formation}
 
 \begin{twenty} % Environment for a list with descriptions
-  \twentyitem{2011}{GMSI}{\includegraphics[height=30px]{picts/cesi.jpg}}{Gestionnaire de Maintenance des Systèmes Informatiques\\ Titre de niveau III\\}
-  \twentyitem{2007}{Baccalauréat STL}{\large{Lycée Libergier Reims}}{Science et Technique de Laboratoire\\}
+  \twentyitem{2011}{GMSI}{\includegraphics[height=30px]{picts/cesi.jpg}}{Gestionnaire de Maintenance des SystÃ¨mes Informatiques\\ Titre de niveau III\\}
+  % \twentyitem{2007}{BaccalaurÃ©at STL}{\large{LycÃ©e Libergier Reims}}{Science et Technique de Laboratoire\\}
   %\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
 
@@ -128,9 +153,8 @@
 %----------------------------------------------------------------------------------------
 
 %\vspace*{1cm}
-\section{Centre d'intérêts}
+\section{Centre d'intÃ©rÃªts}
 
-Domotique, MMORPG, Développement de Jeux Vidéo.\\
-Moto, Guitare.
+Moto.
 
 \end{document}
