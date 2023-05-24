@@ -142,7 +142,7 @@
 
 		%------------------------------------------------
 
-		\profilesection{Compétences}{1.4cm}
+		\profilesection{Technologies}{1.4cm}
 
 		\skills
 		\skillstext
